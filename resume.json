@@ -1,0 +1,130 @@
+{
+    "basics": {
+        "name": "Rahul Yedida",
+        "label": "Ph.D. student",
+        "picture": "",
+        "email": "rahul@ryedida.me",
+        "phone": "(919) 636-8327",
+        "website": "https://ryedida.me",
+        "summary": "Research focused on deep learning in software engineering, and theoretical deep learning",
+        "location": {
+            "address": "1910 Entrepreneur Dr",
+            "postalCode": "NC 27606",
+            "city": "Raleigh",
+            "countryCode": "US",
+            "region": "North Carolina"
+        },
+        "profiles": [{
+            "network": "GitHub",
+            "username": "yrahul3910",
+            "url": "https://github.com/yrahul3910"
+        }, {
+            "network": "LinkedIn",
+            "username": "rahul-yedida",
+            "url": "https://linkedin.com/in/rahul-yedida"
+        }]
+    },
+    "work": [{
+        "company": "Indian Institute of Astrophysics",
+        "position": "Research Intern",
+        "website": "https://iiap.res.in",
+        "startDate": "2018-07-01",
+        "endDate": "2019-03-01",
+        "summary": "Worked on image restoration of globular clusters using convolutional neural networks.",
+        "highlights": []
+    }],
+    "volunteer": [],
+    "education": [{
+        "institution": "North Carolina State University",
+        "area": "Computer Science",
+        "studyType": "Doctorate",
+        "startDate": "2019-08-16",
+        "endDate": "2024-05-01",
+        "gpa": "4.1",
+        "courses": []
+    }, {
+        "institution": "PES University",
+        "area": "Computer Science",
+        "studyType": "Bachelor",
+        "startDate": "2015-07-01",
+        "endDate": "2019-05-01",
+        "gpa": "7.9",
+        "courses": []
+    }],
+    "awards": [],
+    "publications": [{
+        "name": "SIMPLE is better than complex: On the value of very simple deep learning for GitHub and Bugzilla issue close time prediction",
+        "publisher": "arXiv",
+        "releaseDate": "2020-11-01",
+        "website": "...",
+        "summary": "Rahul Yedida, Xueqi Yang, Tim Menzies"
+    }, {
+        "name": "Improving Deep Learning for Defect Prediction (using the GHOST Hyperparameter Optimizer)",
+        "publisher": "arXiv",
+        "releaseDate": "2020-08-09",
+        "website": "https://arxiv.org/abs/2008.03835",
+        "summary": "Rahul Yedida, Tim Menzies"
+    }, {
+        "name": "Learning to Recognize Actionable Static Code Warnings (is Intrinsically Easy)",
+        "publisher": "arXiv",
+        "releaseDate": "2020-10-27",
+        "website": "https://arxiv.org/abs/2006.00444",
+        "summary": "Xueqi Yang, Jianfeng Chen, Rahul Yedida, Zhe Yu, Tim Menzies"
+    }, {
+        "name": "Parsimonious Computing: A Minority Training Regime for Effective Prediction in Large Microarray Expression Data Sets",
+        "publisher": "International Joint Conference on Neural Networks (IJCNN) 2020",
+        "releaseDate": "2020-05-18",
+        "website": "https://arxiv.org/abs/2005.08442",
+        "summary": "Shailesh Sridhar, Snehanshu Saha, Azhar Shaikh, Rahul Yedida, Sriparna Saha"
+    }, {
+        "name": "Evolution of novel activation functions in neural network training for astronomy data: habitability classification of exoplanets",
+        "publisher": "The European Physical Journal Special Topics",
+        "releaseDate": "2020-11-01",
+        "website": "https://link.springer.com/article/10.1140/epjst/e2020-000098-9",
+        "summary": "Snehanshu Saha, Nithin Nagaraj, Archana Mathur, Rahul Yedida, HR Sneha"
+    }, {
+        "name": "LipschitzLR: Using theoretically computed adaptive learning rates for fast convergence",
+        "publisher": "Applied Intelligence",
+        "releaseDate": "2020-09-28",
+        "website": "https://link.springer.com/article/10.1007/s10489-020-01892-0",
+        "summary": "Rahul Yedida, Snehanshu Saha, Tejas Prashanth"
+    }],
+    "skills": [{
+        "name": "Web Development",
+        "level": "Expert",
+        "keywords": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "MySQL",
+            "ASP.NET Core"
+        ]
+    }, {
+        "name": "Machine Learning",
+        "level": "Expert",
+        "keywords": [
+            "PyTorch",
+            "TensorFlow",
+            "Python",
+            "Keras"
+        ]
+    }],
+    "languages": [{
+        "language": "English",
+        "fluency": "Fluent"
+    }],
+    "interests": [{
+        "name": "Coffee",
+        "keywords": [
+            "espresso",
+            "V60",
+            "coffee",
+            "latte"
+        ]
+    }],
+    "references": []
+}
