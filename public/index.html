@@ -1,0 +1,1018 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Rahul Yedida</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+html {
+  background: white;
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: white;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px;
+}
+
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+h4.bold {
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+h5.italic {
+  font-style: italic;
+}
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #2895F1;
+}
+
+a .fa-external-link {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+p,
+li {
+  font-size: 11px;
+}
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px;
+}
+
+em {
+  color: #999;
+}
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px;
+}
+
+ul li {
+  padding-left: 10px;
+}
+
+ul.minimal {
+  list-style: none;
+  padding: 0;
+}
+
+ul.minimal li {
+  margin-bottom: 3px;
+  padding-left: 0;
+}
+
+ul.two-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 28px;
+  column-count: 2;
+  column-gap: 28px;
+}
+
+ul.two-column li {
+  padding-left: 0;
+}
+
+@page {
+  size: A4;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px;
+}
+
+.profile-pic img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 2px solid #56817A;
+}
+
+.summary {
+  margin: 5px 0 5px;
+}
+
+.sublink {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none;
+  }
+
+  .page .resume-header,
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container .item {
+    page-break-inside: avoid;
+  }
+
+  .fa-external-link {
+    display: none;
+  }
+}
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+  font-size: 14px;
+  width: 12px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+  font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+  font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+  font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+  font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+  width: auto;
+  font-size: inherit;
+  vertical-align: text-top;
+}
+
+.info-tag-container .info-text {
+  font-size: 12px;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 139px;
+}
+
+.references-container .fa {
+  font-size: 14px;
+}
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-skill {
+  font-size: 80%;
+}
+
+.skill {
+  margin: .15em;
+  padding: .15em;
+  background: ghostwhite;
+  border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+  <main id="resume" class="page">
+    <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+            <h1>Rahul Yedida</h1>
+            <h2>Ph.D. student</h2>
+        </div>
+        <div class="profile-pic pull-right">
+        </div>
+    </header>
+    <div class="resume-content">
+      <aside class="left-column">
+        <div class="container about-container">
+            <div class="title">
+                <h3>About</h3>
+                <div class="keyline"></div>
+            </div>
+                <div class="info-tag-container">
+                    <i class="fa fa-map-marker"></i>
+                
+                        <h6 class="info-text">1910 Entrepreneur Dr Raleigh North Carolina NC 27606 US</h6>
+                </div>
+        
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-envelope-o"></i>
+                
+                        <h6 class="info-text">
+                            <a href="mailto:rahul@ryedida.me" target="_blank">
+                                rahul@ryedida.me
+                            </a>
+                        </h6>
+                </div>
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-mobile"></i>
+                
+                        <h6 class="info-text">(919) 636-8327</h6>
+                </div>
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-globe"></i>
+                
+                        <h6 class="info-text">
+                            <a href="https://ryedida.me" target="_blank">
+                                ryedida.me
+                            </a>
+                        </h6>
+                </div>
+        
+                                 <div class="info-tag-container">
+                                     <i class="fa fa-github"></i>
+                                 
+                                         <h6 class="info-text">
+                                             <a href="https://github.com/yrahul3910" target="_blank">
+                                                 yrahul3910
+                                             </a>
+                                         </h6>
+                                 </div>
+                                <div class="info-tag-container">
+                                    <i class="fa fa-linkedin-square"></i>
+                                
+                                        <h6 class="info-text">
+                                            <a href="https://linkedin.com/in/rahul-yedida" target="_blank">
+                                                rahul-yedida
+                                            </a>
+                                        </h6>
+                                </div>
+        </section>
+            <div class="skills-container">
+                    <section class="container">
+                            <div class="title">
+                                <h3>Web Development</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Expert</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">HTML</h6>
+                                    <h6 class="main-skill skill">CSS</h6>
+                                    <h6 class="main-skill skill">JavaScript</h6>
+                                    <h6 class="main-skill skill">React.js</h6>
+                                    <h6 class="main-skill skill">Node.js</h6>
+                                    <h6 class="main-skill skill">Express.js</h6>
+                                    <h6 class="main-skill skill">MongoDB</h6>
+                                    <h6 class="main-skill skill">MySQL</h6>
+                                    <h6 class="main-skill skill">ASP.NET Core</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Machine Learning</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Expert</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">PyTorch</h6>
+                                    <h6 class="main-skill skill">TensorFlow</h6>
+                                    <h6 class="main-skill skill">Python</h6>
+                                    <h6 class="main-skill skill">Keras</h6>
+                            </div>
+                    </section>
+            </div>
+            <div class="container languages-container">
+                <div class="title">
+                    <h3>Languages</h3>
+                    <div class="keyline"></div>
+                </div>
+                <ul class="minimal">
+                        <li>
+                            <h6>English <em>(Fluent)</em></h6>
+                        </li>
+                </ul>
+            </div>
+            <div class="container interests-container">
+                <div class="title">
+                    <h3>Interests</h3>
+                    <div class="keyline"></div>
+                </div>
+                    <section class="item">
+                            <h4 class="bold">Coffee</h4>
+                            <ul class="minimal">
+                                    <li>espresso</li>
+                                    <li>V60</li>
+                                    <li>coffee</li>
+                                    <li>latte</li>
+                            </ul>
+                    </section>
+            </div>
+      </aside>
+      <div class="right-column">
+                <div class="container summary-container">
+                    <div class="title">
+                        <h3>Summary</h3>
+                        <div class="keyline"></div>
+                    </div>            <p class="summary">
+                        Research focused on deep learning in software engineering, and theoretical deep learning
+                    </p>
+                </div>
+        <div class="container work-container">
+            <div class="title">
+                <h3>Experience</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://iiap.res.in" target="_blank">
+                                    Indian Institute of Astrophysics
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">07/2018</span>
+                                <span class="endDate"> - 03/2019</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Research Intern</h4>
+        
+        
+                    <p class="summary">Worked on image restoration of globular clusters using convolutional neural networks.</p>
+        
+                </section>
+        </div>
+        <div class="container project-container">
+            <div class="title">
+                <h3>Open Source Projects</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/yrahul3910/socialqr" target="_blank">
+                                    NearConnect
+                                        <span class="sublink">∙ <a href="https://github.com/yrahul3910/socialqr" target="_blank" class="sublink">https://github.com/yrahul3910/socialqr</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">11/2019</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        iOS app to connect with people nearby using multicast peer-to-peer connections.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">ios</h6>
+                            <h6 class="skill">swift</h6>
+                            <h6 class="skill">xcode</h6>
+                            <h6 class="skill">swiftui</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/yrahul3910/gpt-2" target="_blank">
+                                    Personalized Chatbot
+                                        <span class="sublink">∙ <a href="https://github.com/yrahul3910/gpt-2" target="_blank" class="sublink">https://github.com/yrahul3910/gpt-2</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">05/2019</span>
+                                <span class="endDate"> - 05/2019</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Fine-tuned a GPT-2 345M model on 730k messages from Telegram logs to create a personalized chatbot
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">python</h6>
+                            <h6 class="skill">deep learning</h6>
+                            <h6 class="skill">machine learning</h6>
+                            <h6 class="skill">data mining</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/yrahul3910/student-modeling-project" target="_blank">
+                                    Intelligent Tutoring System
+                                        <span class="sublink">∙ <a href="https://github.com/yrahul3910/student-modeling-project" target="_blank" class="sublink">https://github.com/yrahul3910/student-modeling-project</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">09/2018</span>
+                                <span class="endDate"> - 05/2019</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Implemented an Intelligent Tutoring System backend using a hidden Markov model and a novel question selection algorithm
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">data mining</h6>
+                            <h6 class="skill">python</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/yrahul3910/ActivityDataProject" target="_blank">
+                                    Activity Data Project
+                                        <span class="sublink">∙ <a href="https://github.com/yrahul3910/ActivityDataProject" target="_blank" class="sublink">https://github.com/yrahul3910/ActivityDataProject</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">10/2018</span>
+                                <span class="endDate"> - 11/2018</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Collected personal activity data for 9 months, grouped tasks into 30 categories. Analyzed most productive hours of the day and built a 2-layer predictive LSTM model.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">deep learning</h6>
+                            <h6 class="skill">python</h6>
+                            <h6 class="skill">machine learning</h6>
+                            <h6 class="skill">data mining</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://www.softpedia.com/get/Office-tools/Diary-Organizers-Calendar/JournalBear.shtml" target="_blank">
+                                    JournalBear
+                                        <span class="sublink">∙ <a href="https://www.softpedia.com/get/Office-tools/Diary-Organizers-Calendar/JournalBear.shtml" target="_blank" class="sublink">https://www.softpedia.com/get/Office-tools/Diary-Organizers-Calendar/JournalBear.shtml</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">06/2017</span>
+                                <span class="endDate"> - 02/2019</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Cross-platform journal application with AES-256 encryption. Rated 4/5 by Softpedia.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">javascript</h6>
+                            <h6 class="skill">electron</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/yrahul3910/results-scraper-node" target="_blank">
+                                    Result Scraper
+                                        <span class="sublink">∙ <a href="https://github.com/yrahul3910/results-scraper-node" target="_blank" class="sublink">https://github.com/yrahul3910/results-scraper-node</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+                      <h4>
+                        Website for scraping university examination results and displaying charts and printable reports, with caching using a database.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">mongodb</h6>
+                            <h6 class="skill">nodejs</h6>
+                            <h6 class="skill">express</h6>
+                            <h6 class="skill">react</h6>
+                            <h6 class="skill">web development</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/yrahul3910/video-sharing-site" target="_blank">
+                                    Video Sharing Website
+                                        <span class="sublink">∙ <a href="https://github.com/yrahul3910/video-sharing-site" target="_blank" class="sublink">https://github.com/yrahul3910/video-sharing-site</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+                      <h4>
+                        Simplified implementation of a video-sharing website with subscriptions and custom searching.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">sass</h6>
+                            <h6 class="skill">flexbox</h6>
+                            <h6 class="skill">react</h6>
+                            <h6 class="skill">react-router</h6>
+                            <h6 class="skill">mysql</h6>
+                            <h6 class="skill">express</h6>
+                            <h6 class="skill">nodejs</h6>
+                            <h6 class="skill">elasticsearch</h6>
+                            <h6 class="skill">web development</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://www.softpedia.com/get/Science-CAD/Xtreme-Calculations.shtml" target="_blank">
+                                    Xtreme Calculations
+                                        <span class="sublink">∙ <a href="https://www.softpedia.com/get/Science-CAD/Xtreme-Calculations.shtml" target="_blank" class="sublink">https://www.softpedia.com/get/Science-CAD/Xtreme-Calculations.shtml</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">04/2013</span>
+                                <span class="endDate"> - 10/2017</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Windows math software to solve scientific and mathematical problems.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">vb.net</h6>
+                            <h6 class="skill">python</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Video Indexer
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">09/2017</span>
+                                <span class="endDate"> - 09/2017</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Cross-platform desktop application to detect the time(s) a given keyword was spoken in a given video.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">c++</h6>
+                            <h6 class="skill">qt</h6>
+                            <h6 class="skill">cmusphinx</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Web development projects
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">01/2017</span>
+                                <span class="endDate"> - 11/2017</span>
+                        </h5>
+                    </div>
+                      <h4>
+                        Projects include URL shortener, rogue-like dungeon crawler game, voting application, Simon game, land surface temperature heatmap, and mapping meteorite impacts across the globe.
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">web development</h6>
+                            <h6 class="skill">javascript</h6>
+                            <h6 class="skill">react</h6>
+                            <h6 class="skill">d3</h6>
+                            <h6 class="skill">sass</h6>
+                            <h6 class="skill">nodejs</h6>
+                            <h6 class="skill">express</h6>
+                            <h6 class="skill">mongodb</h6>
+                    </div>
+        
+        
+                </section>
+        </div>
+        <div class="container education-container">
+            <div class="title">
+            <h3>Education</h3>
+            <div class="keyline"></div>
+        </div> 
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    North Carolina State University
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">08/2019</span>
+                    <span class="endDate"> - 05/2024</span>
+            </h5>
+        </div>
+         
+                <h4>Doctorate Computer Science</h4>
+        
+                <h5>3.91</h5>
+                      </section>
+        
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    PES University
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">07/2015</span>
+                    <span class="endDate"> - 05/2019</span>
+            </h5>
+        </div>
+         
+                <h4>Bachelor Computer Science</h4>
+        
+                <h5>7.9</h5>
+                      </section>
+        </div>
+        <div class="container publications-container">
+            <div class="title">
+                <h3>Publications</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://arxiv.org/abs/2101.06319" target="_blank">
+                                When SIMPLE is better than complex: On the value of very simple deep learning for GitHub and Bugzilla issue close time prediction
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            11/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">arXiv</h5>
+        
+                <p class="summary">Rahul Yedida, Xueqi Yang, Tim Menzies</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://arxiv.org/abs/2011.07959" target="_blank">
+                                Text Mining to Identify and Extract Novel Disease Treatments From Unstructured Datasets
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            10/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">arXiv</h5>
+        
+                <p class="summary">Rahul Yedida, Saad Mohammad Abrar, Cleber Melo-Filho, Eugene Muratov, Rada Chirkova, Alexander Tropsha</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://arxiv.org/abs/2008.03835" target="_blank">
+                                Improving Deep Learning for Defect Prediction (using the GHOST Hyperparameter Optimizer)
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            08/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">arXiv</h5>
+        
+                <p class="summary">Rahul Yedida, Tim Menzies</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://arxiv.org/abs/2006.00444" target="_blank">
+                                Learning to Recognize Actionable Static Code Warnings (is Intrinsically Easy)
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            10/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">Empirical Software Engineering</h5>
+        
+                <p class="summary">Xueqi Yang, Jianfeng Chen, Rahul Yedida, Zhe Yu, Tim Menzies</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://arxiv.org/abs/2005.08442" target="_blank">
+                                Parsimonious Computing: A Minority Training Regime for Effective Prediction in Large Microarray Expression Data Sets
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            05/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">International Joint Conference on Neural Networks (IJCNN) 2020</h5>
+        
+                <p class="summary">Shailesh Sridhar, Snehanshu Saha, Azhar Shaikh, Rahul Yedida, Sriparna Saha</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://link.springer.com/article/10.1140/epjst/e2020-000098-9" target="_blank">
+                                Evolution of novel activation functions in neural network training for astronomy data: habitability classification of exoplanets
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            11/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">The European Physical Journal Special Topics</h5>
+        
+                <p class="summary">Snehanshu Saha, Nithin Nagaraj, Archana Mathur, Rahul Yedida, HR Sneha</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://link.springer.com/article/10.1007/s10489-020-01892-0" target="_blank">
+                                LipschitzLR: Using theoretically computed adaptive learning rates for fast convergence
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            09/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">Applied Intelligence</h5>
+        
+                <p class="summary">Rahul Yedida, Snehanshu Saha, Tejas Prashanth</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://link.springer.com/chapter/10.1007/978-981-33-6463-9_1" target="_blank">
+                                Optimizing Inter-nationality of Journals: A Classical Gradient Approach Revisited via Swarm Intelligence
+                            </a>
+                    </h3>
+                    <h5 class="italic pull-right">
+                            11/2019
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">Springer Communications in Computer and Information Science vol 1290</h5>
+        
+                <p class="summary">Luckyson Khaidem, Rahul Yedida, Abhijit J. Theophilus</p>
+        
+            </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
