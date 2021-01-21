@@ -40,7 +40,7 @@
         "studyType": "Doctorate",
         "startDate": "2019-08-16",
         "endDate": "2024-05-01",
-        "gpa": "4.1",
+        "gpa": "3.91",
         "courses": []
     }, {
         "institution": "PES University",
@@ -53,11 +53,17 @@
     }],
     "awards": [],
     "publications": [{
-        "name": "SIMPLE is better than complex: On the value of very simple deep learning for GitHub and Bugzilla issue close time prediction",
+        "name": "When SIMPLE is better than complex: On the value of very simple deep learning for GitHub and Bugzilla issue close time prediction",
         "publisher": "arXiv",
         "releaseDate": "2020-11-01",
-        "website": "...",
+        "website": "https://arxiv.org/abs/2101.06319",
         "summary": "Rahul Yedida, Xueqi Yang, Tim Menzies"
+    }, {
+        "name": "Text Mining to Identify and Extract Novel Disease Treatments From Unstructured Datasets",
+        "publisher": "arXiv",
+        "releaseDate": "2020-10-22",
+        "website": "https://arxiv.org/abs/2011.07959",
+        "summary": "Rahul Yedida, Saad Mohammad Abrar, Cleber Melo-Filho, Eugene Muratov, Rada Chirkova, Alexander Tropsha"
     }, {
         "name": "Improving Deep Learning for Defect Prediction (using the GHOST Hyperparameter Optimizer)",
         "publisher": "arXiv",
@@ -66,7 +72,7 @@
         "summary": "Rahul Yedida, Tim Menzies"
     }, {
         "name": "Learning to Recognize Actionable Static Code Warnings (is Intrinsically Easy)",
-        "publisher": "arXiv",
+        "publisher": "Empirical Software Engineering",
         "releaseDate": "2020-10-27",
         "website": "https://arxiv.org/abs/2006.00444",
         "summary": "Xueqi Yang, Jianfeng Chen, Rahul Yedida, Zhe Yu, Tim Menzies"
@@ -88,6 +94,159 @@
         "releaseDate": "2020-09-28",
         "website": "https://link.springer.com/article/10.1007/s10489-020-01892-0",
         "summary": "Rahul Yedida, Snehanshu Saha, Tejas Prashanth"
+    }, {
+        "name": "Optimizing Inter-nationality of Journals: A Classical Gradient Approach Revisited via Swarm Intelligence",
+        "publisher": "Springer Communications in Computer and Information Science vol 1290",
+        "releaseDate": "2019-11",
+        "website": "https://link.springer.com/chapter/10.1007/978-981-33-6463-9_1",
+        "summary": "Luckyson Khaidem, Rahul Yedida, Abhijit J. Theophilus"
+    }],
+    "projects": [{
+        "name": "NearConnect",
+        "description": "iOS app to connect with people nearby using multicast peer-to-peer connections.",
+        "keywords": [
+            "ios", 
+            "swift",
+            "xcode",
+            "swiftui"
+        ],
+        "startDate": "2019-11",
+        "url": "https://github.com/yrahul3910/socialqr",
+        "roles": [
+            "sole contributor"
+        ]
+    }, {
+        "name": "Personalized Chatbot",
+        "description": "Fine-tuned a GPT-2 345M model on 730k messages from Telegram logs to create a personalized chatbot",
+        "keywords": [
+            "python",
+            "deep learning",
+            "machine learning",
+            "data mining"
+        ],
+        "startDate": "2019-05",
+        "endDate": "2019-05",
+        "url": "https://github.com/yrahul3910/gpt-2",
+        "roles": [
+            "sole contributor"
+        ]
+    }, {
+        "name": "Intelligent Tutoring System",
+        "description": "Implemented an Intelligent Tutoring System backend using a hidden Markov model and a novel question selection algorithm",
+        "keywords": [
+            "data mining",
+            "python"
+        ],
+        "startDate": "2018-09",
+        "endDate": "2019-05",
+        "url" : "https://github.com/yrahul3910/student-modeling-project",
+        "roles": [
+            "backend developer"
+        ]
+    }, {
+        "name": "Activity Data Project",
+        "description": "Collected personal activity data for 9 months, grouped tasks into 30 categories. Analyzed most productive hours of the day and built a 2-layer predictive LSTM model.",
+        "keywords": [
+            "deep learning",
+            "python",
+            "machine learning",
+            "data mining"
+        ],
+        "startDate": "2018-10",
+        "endDate": "2018-11",
+        "url": "https://github.com/yrahul3910/ActivityDataProject",
+        "roles": [
+            "sole contributor"
+        ]
+    }, {
+        "name": "JournalBear",
+        "description": "Cross-platform journal application with AES-256 encryption. Rated 4/5 by Softpedia.",
+        "keywords": [
+            "javascript",
+            "electron"
+        ],
+        "startDate": "2017-06",
+        "endDate": "2019-02",
+        "url": "https://www.softpedia.com/get/Office-tools/Diary-Organizers-Calendar/JournalBear.shtml",
+        "roles": [
+            "sole contributor"
+        ]
+    }, {
+        "name": "Result Scraper",
+        "description": "Website for scraping university examination results and displaying charts and printable reports, with caching using a database.",
+        "keywords": [
+            "mongodb",
+            "nodejs",
+            "express",
+            "react",
+            "web development"
+        ],
+        "url": "https://github.com/yrahul3910/results-scraper-node",
+        "roles": [
+            "sole contributor"
+        ]
+    }, {
+        "name": "Video Sharing Website",
+        "description": "Simplified implementation of a video-sharing website with subscriptions and custom searching.",
+        "keywords": [
+            "sass",
+            "flexbox",
+            "react",
+            "react-router",
+            "mysql",
+            "express",
+            "nodejs",
+            "elasticsearch",
+            "web development"
+        ],
+        "url": "https://github.com/yrahul3910/video-sharing-site",
+        "roles": [
+            "lead contributor"
+        ]
+    }, {
+        "name": "Xtreme Calculations",
+        "description": "Windows math software to solve scientific and mathematical problems.",
+        "keywords": [
+            "vb.net",
+            "python"
+        ], 
+        "url": "https://www.softpedia.com/get/Science-CAD/Xtreme-Calculations.shtml",
+        "startDate": "2013-04",
+        "endDate": "2017-10",
+        "roles": [
+            "lead contributor"
+        ]
+    }, {
+        "name": "Video Indexer",
+        "description": "Cross-platform desktop application to detect the time(s) a given keyword was spoken in a given video.",
+        "keywords": [
+            "c++",
+            "qt",
+            "cmusphinx"
+        ],
+        "startDate": "2017-09",
+        "endDate": "2017-09",
+        "roles": [
+            "contributor"
+        ]
+    }, {
+        "name": "Web development projects",
+        "description": "Projects include URL shortener, rogue-like dungeon crawler game, voting application, Simon game, land surface temperature heatmap, and mapping meteorite impacts across the globe.",
+        "keywords": [
+            "web development",
+            "javascript",
+            "react",
+            "d3",
+            "sass",
+            "nodejs",
+            "express",
+            "mongodb"
+        ],
+        "startDate": "2017-01",
+        "endDate": "2017-11",
+        "roles": [
+            "sole contributor"
+        ]
     }],
     "skills": [{
         "name": "Web Development",
